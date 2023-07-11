@@ -65,7 +65,7 @@ module.exports = mock.compile();
 
 ![](https://pkxfpp.hk.aircodecdn.com/1689041794483.1689041841020_vdq7d2n7vyp.jpg)
 
-## Date Mocking API
+## Data Mocking API
 
 Mocor provides powerful API generation helper functions to generate various types of data. Here are the built-in helper functions in Mocor:
 
