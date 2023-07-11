@@ -1,6 +1,6 @@
-# Mocking.js
+# Mocor
 
-应该是目前为止最方便的快速配置生成服务端API接口的Node.js库。
+Mocor 是目前为止最方便的快速配置生成服务端API接口的 Node.js 库。
 
 - 非常易于使用
 - 自动生成API文档
