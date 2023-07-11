@@ -1,0 +1,28 @@
+{
+  "name": "mocking.js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node example/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@koa/bodyparser": "^5.0.0",
+    "eslint": "^8.44.0",
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.0"
+  },
+  "dependencies": {
+    "bullshit-generator-js": "^0.2.1",
+    "chinese-random-name": "^2.0.1",
+    "highlight.js": "^11.8.0",
+    "marked": "^5.1.1",
+    "marked-highlight": "^2.0.1",
+    "qs": "^6.11.2"
+  }
+}
