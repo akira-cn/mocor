@@ -179,7 +179,7 @@ module.exports = mock.compile();
 
 ### 例4：
 
-下面这个[例子](https://5s6yh6diyc.us.aircode.run/paged)模拟35条分页数据，根据 `page` 的值返回不同的数据条目：
+下面这个[例子](https://5s6yh6diyc.us.aircode.run/paged)模拟32条分页数据，根据 `page` 的值返回不同的数据条目：
 
 ```js
 // @see https://docs.aircode.io/guide/functions/
