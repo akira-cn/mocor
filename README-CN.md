@@ -271,4 +271,4 @@ module.exports = mocking(require('./student-mock.js'),
 
 这样我们访问[正式的 API ](https://5s6yh6diyc.us.aircode.run/student)就可以通过设置 HTTP 请求头 `x-motor` 值为 1 来使用模拟数据，不设置这个请求头则返回真实数据。
 
-而 API 文档仍然可以通过[模拟数据的云函数](https://5s6yh6diyc.us.aircode.run/student)进行访问。
+而 API 文档仍然可以通过[模拟数据的云函数](https://5s6yh6diyc.us.aircode.run/student-mock)进行访问。
