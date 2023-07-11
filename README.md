@@ -275,4 +275,4 @@ module.exports = mocking(require('./student-mock.js'),
 
 So accessing the production API can be done by setting the HTTP request header `x-motor` to a value of 1, which will allow you to use mock data. If the `x-motor` header is not set, the API will return real data.
 
-Meanwhile, you can still access the API [documentation](https://5s6yh6diyc.us.aircode.run/student) through the cloud function that generates mock data.
+Meanwhile, you can still access the API [documentation](https://5s6yh6diyc.us.aircode.run/student-mock) through the cloud function that generates mock data.
