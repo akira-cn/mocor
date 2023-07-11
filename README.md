@@ -182,7 +182,7 @@ module.exports = mock.compile();
 
 ### Example 4
 
-The following [example](https://5s6yh6diyc.us.aircode.run/paged) simulates 35 pagination data entries and returns different data items based on the value of the `page` parameter:
+The following [example](https://5s6yh6diyc.us.aircode.run/paged) simulates 32 pagination data entries and returns different data items based on the value of the `page` parameter:
 
 ```js
 // @see https://docs.aircode.io/guide/functions/
