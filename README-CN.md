@@ -14,7 +14,7 @@ Mocor 是目前为止最方便的快速配置生成服务端API接口的 Node.js
 const Koa = require('koa');
 const {bodyParser} = require("@koa/bodyparser");
 
-const {Mock} = require('../lib/index.js');
+const {Mock} = require('mocor');
 
 const app = new Koa();
 

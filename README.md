@@ -16,7 +16,7 @@ Mocor is the most convenient API mocking tool.
 const Koa = require('koa');
 const {bodyParser} = require("@koa/bodyparser");
 
-const {Mock} = require('../lib/index.js');
+const {Mock} = require('mocor');
 
 const app = new Koa();
 
