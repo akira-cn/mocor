@@ -2,7 +2,7 @@
 
 [👉 中文文档](README-CN.md)
 
-CREATE ELEGANT MOCK API WITH ELEGANT API DOCUMENTATION.
+**BUILD ELEGANT MOCK API WITH ELEGANT API DOCUMENTATION.**
 
 ![fff](https://github.com/akira-cn/mocor/assets/316498/b41243f6-48c4-4ccd-b657-0e1ca3356942)
 
