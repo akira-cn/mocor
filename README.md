@@ -2,6 +2,12 @@
 
 [👉 中文文档](README-CN.md)
 
+**BUILD ELEGANT MOCK API WITH ELEGANT API DOCUMENTATION.**
+
+![fff](https://github.com/akira-cn/mocor/assets/316498/b41243f6-48c4-4ccd-b657-0e1ca3356942)
+
+
+---
 Mocor is the most convenient API mocking tool.
 
 - Extremely easy to use.
@@ -182,7 +188,7 @@ module.exports = mock.compile();
 
 ### Example 4
 
-The following [example](https://5s6yh6diyc.us.aircode.run/paged) simulates 35 pagination data entries and returns different data items based on the value of the `page` parameter:
+The following [example](https://5s6yh6diyc.us.aircode.run/paged) simulates 32 pagination data entries and returns different data items based on the value of the `page` parameter:
 
 ```js
 // @see https://docs.aircode.io/guide/functions/
@@ -275,4 +281,4 @@ module.exports = mocking(require('./student-mock.js'),
 
 So accessing the production API can be done by setting the HTTP request header `x-motor` to a value of 1, which will allow you to use mock data. If the `x-motor` header is not set, the API will return real data.
 
-Meanwhile, you can still access the API [documentation](https://5s6yh6diyc.us.aircode.run/student) through the cloud function that generates mock data.
+Meanwhile, you can still access the API [documentation](https://5s6yh6diyc.us.aircode.run/student-mock) through the cloud function that generates mock data.
