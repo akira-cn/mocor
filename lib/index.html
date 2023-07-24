@@ -18,10 +18,5 @@
   <div class="markdown-body">
   ${markdownBody}
   </div>
-  <script>
-    document.querySelectorAll('code.hljs.language-js').forEach(c => {
-      c.innerHTML = c.innerHTML.replace(/\\$\\$service\\$\\$/mg, \`\${location.origin}\${location.pathname}\`);
-    });
-  </script>
 </body>
 </html>

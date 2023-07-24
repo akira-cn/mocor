@@ -1,10 +1,10 @@
 {
   "name": "mocor",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "cross-env AC_FAAS_ROOT=example-aircode AC_PORT=9000 run-aircode",
     "dev": "node example/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "@koa/bodyparser": "^5.0.0",
+    "aircode-mock-runtime": "^0.4.2",
+    "cross-env": "^7.0.3",
     "eslint": "^8.44.0",
     "koa": "^2.14.2",
     "koa-router": "^12.0.0"
