@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "@koa/bodyparser": "^5.0.0",
-    "aircode-mock-runtime": "^0.4.2",
+    "aircode-mock-runtime": "^0.4.3",
     "cross-env": "^7.0.3",
     "eslint": "^8.44.0",
     "koa": "^2.14.2",
